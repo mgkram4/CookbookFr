@@ -4,7 +4,7 @@ import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 
 export default function Carousel() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center dark:bg-white">
       <div className=" mt-8 font-bold text-5xl">Whats New</div>
       <div className="carousel carousel-start max-w-sm md:max-w-7xl p-12 space-x-4 rounded-box over">
         <div className="carousel-item">

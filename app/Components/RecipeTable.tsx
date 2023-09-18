@@ -56,7 +56,10 @@ const columns = [
 
 export default function RecipeTable() {
   return (
-    <Table aria-label="Example table with dynamic content">
+    <Table
+      className="dark:bg-white"
+      aria-label="Example table with dynamic content"
+    >
       <TableHeader columns={columns}>
         {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}
       </TableHeader>

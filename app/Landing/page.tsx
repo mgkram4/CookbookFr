@@ -8,7 +8,7 @@ import Seasonal from "../Components/Seasonal";
 export default function Landing() {
   return (
     <div>
-      <div className="flex-col items-center justify-center">
+      <div className="flex-col items-center justify-center dark:bg-white">
         <Header />
         <Carousel />
         <Seasonal />

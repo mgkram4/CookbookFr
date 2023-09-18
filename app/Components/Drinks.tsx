@@ -7,7 +7,7 @@ import { Card, CardFooter, Image, Button, CardHeader } from "@nextui-org/react";
 
 export default function Drinks() {
   return (
-    <div className="">
+    <div className="dark:bg-white">
       <div className=" flex  font-bold justify-center m-4 text-5xl">
         Thisty ?{" "}
       </div>

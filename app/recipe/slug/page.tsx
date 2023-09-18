@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Recipes() {
   return (
-    <div className="px-4 sm:px-8 bg-hero mx-auto max-w-screen-xl text-center py-12 lg:py-24">
+    <div className=" dark:bg-white px-4 sm:px-8 bg-hero mx-auto max-w-screen-xl text-center py-12 lg:py-24">
       <h1 className="mb-4 text-2xl sm:text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
         Pasta and Red Sauce
         {/* This will be dynamic to recipe name */}

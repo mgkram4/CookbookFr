@@ -6,7 +6,7 @@ import { Button } from "@nextui-org/react";
 export default function App() {
   return (
     <div className="bg-cover bg-[url('/kitchen.jpg')]">
-      <div className="px-4 bg-cover bg-hero mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+      <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-black md:text-5xl lg:text-6xl">
           Explore Culinary Delights with Us
         </h1>
