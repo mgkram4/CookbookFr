@@ -52,7 +52,7 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="text-green-600" href="recipes" aria-current="page">
+          <Link className="text-green-600" href="/recipes" aria-current="page">
             Recipies
           </Link>
         </NavbarItem>

@@ -16,7 +16,12 @@ const config: Config = {
       backgroundImage: {
         hero: "url('/Users/mark/cookbook-4/public/image4.jpg')",
       },
-      darkMode: false,
+    },
+  },
+  variants: {
+    extend: {
+      // Other variants...
+      dark: [], // Remove dark mode variants
     },
   },
   plugins: [nextui(), withMT, daisyui],
