@@ -6,7 +6,7 @@ export default function Carousel() {
   return (
     <div className="flex flex-col items-center justify-center dark:bg-white">
       <div className=" mt-8 font-bold text-5xl">Whats New</div>
-      <div className="carousel carousel-start max-w-sm md:max-w-7xl p-12 space-x-4 rounded-box over">
+      <div className="carousel carousel-start m-2 max-w-sm md:max-w-7xl p-12 space-x-4 rounded-box over">
         <div className="carousel-item">
           <Card className="py-4">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">

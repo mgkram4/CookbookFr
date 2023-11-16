@@ -1,5 +1,5 @@
 import Carousel from "../Components/Carousel";
-import Drinks from "../Components/Drinks";
+import Drinks from "../Components/DrinkMenu";
 import Header from "../Components/Header";
 import QuickRecipe from "../Components/QuickRecipe";
 import RecipeTable from "../Components/RecipeTable";

@@ -14,7 +14,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/Users/mark/cookbook-4/public/image4.jpg')",
+        hero: "url('/image4.jpg')", // Adjust the path to your image
       },
     },
   },

@@ -18,16 +18,15 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "My Profile",
-    "Home",
-    "Recipes",
-    "Newest Recipes",
-    "Sesonal",
-    "Quick & Easy",
-    "Non-Alchoholic",
-    "Alchoholic",
-    "Help & Feedback",
-    "Log Out",
+    { label: "My Profile", url: "/profile" },
+    { label: "Home", url: "/" },
+    { label: "Recipes", url: "/recipes" },
+    { label: "Newest Recipes", url: "/newest-recipes" },
+    { label: "Seasonal", url: "/seasonal" },
+    { label: "Quick & Easy", url: "/quick-easy" },
+    { label: "Drinks", url: "/Drinks" },
+    { label: "Help & Feedback", url: "/help" },
+    { label: "Log Out", url: "/logout" },
   ];
 
   return (
@@ -52,12 +51,12 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="text-green-600" href="/recipes" aria-current="page">
+          <Link className="text-green-600" href="/recipes">
             Recipies
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/Drinks">
             Drinks
           </Link>
         </NavbarItem>
@@ -81,7 +80,7 @@ export default function App() {
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item.label}-${index}`}>
             <Link
               color={
                 index === 2
@@ -91,10 +90,10 @@ export default function App() {
                   : "foreground"
               }
               className="w-full"
-              href="#"
+              href={item.url}
               size="lg"
             >
-              {item}
+              {item.label}
             </Link>
           </NavbarMenuItem>
         ))}
